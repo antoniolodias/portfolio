@@ -1,0 +1,70 @@
+@import '../../styles/colors.scss';
+
+.App-header{
+  height: 100vh;
+  width: 100vw;
+  .header-top{
+    height: 80%;
+    max-height: calc(100vh - 220px);
+    background-image: linear-gradient(-120deg, $base3, $color);
+    .header-center{
+      max-width: 1200px;
+      min-width: 500px;
+      position: absolute;
+      bottom: 0;
+      span{
+        text-align: justify;
+        text-justify: inter-word;
+        cursor: default;
+        display: inline-block;
+        top: -50px;
+        width: calc(100% - 600px);
+        color: $base1;
+        left: -70px;
+        font-size: 20px;
+      }
+      .header-buildings{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        align-items: baseline;
+
+        .building{
+          margin-right: 20px;
+          width: 20px;
+          background-color: $black;
+          min-height: 20px;
+        }
+      }
+      .image-container{
+        overflow: hidden;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        z-index: 1;
+        box-shadow: 5px 7px 13px $black;
+        img{
+          width: 100%;
+          top: -50px;
+        }
+      }
+    }
+  }
+  .header-bottom{
+    height: 20%;
+    span{
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      left: -70px;
+      top: -30px;
+      width: 600px;
+      color: $white;
+      cursor: default;
+      line-height: 1.4;
+    }
+  }
+
+}

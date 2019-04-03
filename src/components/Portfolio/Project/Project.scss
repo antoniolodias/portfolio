@@ -1,0 +1,35 @@
+ @import '../../../styles/colors';
+
+.Project{
+  cursor: pointer;
+  width: 85%;
+  height: 120px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  img{
+    width: 100%;
+    -webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
+  }
+  span{
+    position: absolute;
+    left: 10px;
+    font-size: 65px;
+    font-weight: bold;
+    color: $black;
+  }
+  &.mouse-hover{
+    *{transition: all .5s;}
+
+    box-shadow: 5px 2px 3px $base3;
+    span{
+      font-size: 67px;
+      color: $white;
+    }
+    img{
+      width: 102%;
+      -webkit-filter: grayscale(20%) blur(0);
+      filter: grayscale(50%) blur(0);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../styles/colors.scss';
+
+.Skills{
+  margin-top: 150px;
+  .skills-list{
+    width: 80vw;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: $white;
+    .skill{
+      flex: 1 0 16%;
+      border: 3px solid $base2;
+      overflow: hidden;
+      &:hover{
+        *{transition: all 1s;}
+        span{display: none;}
+        svg{background-color: $white;}
+      }
+      &:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+      &:hover{
+        border-color: $base3;
+      }
+      svg{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: $base3;
+        path{
+          fill: $black;
+        }
+      }
+      span{
+        position: absolute;
+        bottom: 0px;
+        left: 5px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../styles/colors.scss';
+
+.App-footer{
+  width: 80vw;
+  max-width: 1200px;
+  height: 150px;
+  align-items: baseline;
+  span{
+    color: $base1;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  .footer-buildings{
+    top: 0;
+    align-items: flex-start;
+    .building{
+      margin-left: 20px;
+      width: 30px;
+      background-color: $base3;
+      min-height: 30px;
+      svg{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        margin-left: -50%;
+        fill: $black;
+      }
+      &:hover{
+        cursor: pointer;
+        svg{
+          transition: all .5s;
+          fill: $white;
+        }
+      }
+    }
+  }
+}

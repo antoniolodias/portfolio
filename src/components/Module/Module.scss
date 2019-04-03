@@ -1,0 +1,76 @@
+@import '../../styles/colors.scss';
+
+.Module{
+ position: fixed;
+ top: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: $whiteTranslucid;
+ z-index: 999;
+ .module-window{
+   background-color: $base3;
+   width: min-content;
+   *{color: $white}
+   .header{
+     height: 100px;
+     .title{
+       top: 0;
+       position: relative;
+       a{
+         top: 10px;
+         left: 20px;
+         cursor: pointer;
+         svg{
+           height: 60px;
+           background-color: $white;
+           border-radius: 100px;
+           path{fill:$base3;}
+         }
+         &:hover{
+           svg{
+           transition: all .2s;
+           transform: scale(1.1);
+          }
+         }
+       }
+     }
+     button{
+       cursor: pointer;
+       background-color: transparent;
+       width: 50px;
+       outline: none;
+       path{fill: $white;}
+       &:hover{
+         transition: transform .2s;
+         transform: scale(1.1);
+       }
+     }
+   }
+   .project-info{
+     cursor: default;
+     span{
+       text-align: justify;
+       text-justify: inter-word;
+       max-width: 70%;
+     }
+     ul{
+      list-style-type: none;
+      text-align: right;
+      min-width: 15%;
+      :first-child{
+        font-weight:bold;
+        margin-bottom: 10px;
+      }
+    }
+
+   }
+   .img-container{
+     overflow: hidden;
+     max-width: 100%;
+     margin-top: 20px;
+     img{
+       max-height: 400px
+     }
+   }
+ }
+}

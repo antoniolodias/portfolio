@@ -1,0 +1,85 @@
+// global styles
+
+@import './colors.scss';
+
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: verdana;
+  position: relative;
+}
+
+body{
+  background-color: $black;
+  overflow-x: hidden;
+  .app-body{
+    background-color: $base3;
+    width: 100vw;
+    align-items: center;
+  }
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: $black;
+}
+::-webkit-scrollbar-track-piece:start {
+    background: $black;
+}
+::-webkit-scrollbar-track-piece:end {
+    background: $color;
+}
+
+.flex{
+  display: flex;
+}
+.column{
+  flex-direction: column;
+}
+.row{
+  flex-direction: row;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.portfolio-window{
+  max-width: 1200px;
+  min-width: 500px;
+  padding: 30px 100px;
+  background-color: $white;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  .title{
+    cursor: default;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: -60px;
+    left: -5px;
+  }
+}
+
+.scroll-triangle{
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 70px solid $black;
+
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+  z-index: 1;
+}
