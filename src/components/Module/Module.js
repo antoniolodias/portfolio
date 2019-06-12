@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 import './Module.scss';
 
@@ -21,7 +22,7 @@ class Module extends React.Component {
   render() {
     const { project, onCloseModal } = this.props;
 
-    return (
+    return ReactDOM.createPortal(
       <div className="Module flex center"
             ref={this.modal}
             onClick={this.onCloseModal}>
@@ -53,7 +54,8 @@ class Module extends React.Component {
           </div>
 
         </div>
-      </div>
+      </div>,
+      document.querySelector('#module')
     )
   }
 }
