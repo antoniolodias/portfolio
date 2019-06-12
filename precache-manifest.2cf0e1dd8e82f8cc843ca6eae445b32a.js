@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Muuuuu.dd0ec023.PNG"
   },
   {
-    "revision": "ce5d369404fc5dadfd4e",
+    "revision": "d49b1ccea07ffa724099",
     "url": "/portfolio/static/css/main.4fd655bf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "8f6f18fb074621dfc5ee",
-    "url": "/portfolio/static/js/2.fadd7c56.chunk.js"
+    "revision": "76bbbe875694a0c39d86",
+    "url": "/portfolio/static/js/2.e9241558.chunk.js"
   },
   {
     "revision": "c96e0e61cafc649df6f982e6232d7906",
@@ -32,12 +32,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Imageboard.b8e2174f.PNG"
   },
   {
+    "revision": "afb35a74d6d28a1dc8a4766b5c9db840",
+    "url": "/portfolio/static/media/Lights Out.afb35a74.PNG"
+  },
+  {
     "revision": "45137d8cb64ecdd20eedb8c1876e06f0",
     "url": "/portfolio/static/media/Mr. Bubbles.45137d8c.PNG"
   },
   {
-    "revision": "ce5d369404fc5dadfd4e",
-    "url": "/portfolio/static/js/main.7547c96b.chunk.js"
+    "revision": "d49b1ccea07ffa724099",
+    "url": "/portfolio/static/js/main.2703d768.chunk.js"
   },
   {
     "revision": "d3bae2cb0cd112c31f1968c07b26ab70",
@@ -56,6 +60,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Imageboard.8b47231b.gif"
   },
   {
+    "revision": "cb325868123e16b62ebcbaaa4d57b1aa",
+    "url": "/portfolio/static/media/Lights Out.cb325868.gif"
+  },
+  {
     "revision": "2905c1be91952db15def8928929dd636",
     "url": "/portfolio/static/media/Mr. Bubbles.2905c1be.gif"
   },
@@ -72,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/Portfolio.0449aca2.gif"
   },
   {
-    "revision": "5e72fd89269a61df21567c359998a20b",
+    "revision": "4f3edf095aad50feb0ea614847cbdfd2",
     "url": "/portfolio/index.html"
   }
 ];
